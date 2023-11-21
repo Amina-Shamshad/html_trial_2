@@ -1,0 +1,436 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+* {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  margin:0px;
+  padding:0px;
+   box-sizing: border-box;
+}
+
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #f1f1f1;
+  margin: 0px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.header-nav {
+  display: flex;
+  text-align: center;
+  padding: 7px;
+}
+
+.header-nav div {
+  padding: 7px;
+
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.Book-now {
+  padding: 7px;
+  font-weight: Bold;
+  font-size: 18px;
+}
+
+.Block1 {
+  background-color: rgb(255, 42, 0);
+  color: white;
+  width: 100%;
+  word-spacing: 8px;
+}
+.header-nav div:hover {
+  background-color: rgb(184, 182, 182);
+  color: black;
+}
+
+.Book-now:hover {
+  background-color: rgb(184, 182, 182);
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: white;
+  left: 20px;
+  width: 47%;
+  padding-bottom:15px;
+}
+.formbody{
+
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+
+}
+.bgimg{
+  display: flex;
+  align-items: center;
+}
+.formhead {
+  padding-left: 0px;
+  padding-bottom: 0px;
+}
+.CheckInDate {
+  padding: 10px;
+  padding-left: 5px;
+  width: 100%;
+  /* margin-right: 20px; */
+}
+.row {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  padding-left: 10px;
+ 
+  justify-content: space-between;
+}
+.cell {
+  display: flex;
+  flex-direction: column;
+  width:100%;
+
+
+}
+
+.cell input{
+ padding:10px;
+ padding-left: 5px;
+
+
+  width:100%;
+}
+.cell label{
+  font-size: 13px;
+}
+
+
+.input1 {
+  width: 100%;
+  flex-grow: 2;
+  padding: 10px;
+}
+
+.search-availability {
+  background-color: rgb(63, 63, 63);
+  color: white;
+  width: 160px;
+  margin-left:12px;
+  box-sizing: border-box;
+  font-size: 13px;
+  padding:9px;
+  text-align: center;
+}
+.search-availability i{
+padding-right: 18px;
+}
+.search:hover {
+  background-color: rgb(177, 172, 172);
+  color: black;
+}
+.hotelname {
+  color: white;
+  background-color: rgb(255, 42, 0);
+  margin-top: 0px;
+  padding-left: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+}
+header {
+  position: relative;
+  width: 98%;
+  height: auto;
+  
+}
+header img {
+  width:100%;
+}
+
+.secondflex {
+  display: flex;
+  gap: 10px;
+}
+.secondflex label{
+  font-size: 13px;
+}
+.secondflex .searchnotbutton{
+  width: 100%;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  text-align: center;
+  background-color: black;
+  color:white;
+}
+.secondflex .searchnotbutton:hover{
+  background-color: rgb(208, 203, 203);
+  color: black;
+}
+.page2 {
+  background-color: #f1f1f1;
+}
+.page2 h2{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.page2 p{
+  padding-top: 0px;
+  padding-bottom: 25px;
+}
+.cart {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.cart button{
+  margin-left: 30px;
+  justify-content: center;
+}
+.box {
+  background-color: white;
+}
+.boxcontent {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h3 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.button {
+  background-color: black;
+  color: white;
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  white-space: nowrap;
+}
+
+.button:hover {
+  background-color: rgb(185, 175, 175);
+  color: black;
+}
+.about {
+  display: flex;
+  background-color: rgb(241, 241, 241);
+}
+.Aboutpara {
+  padding-right: 15px;
+  width: 32%;
+}
+.mapimg {
+  flex-grow: 2;
+  width: 48%;
+}
+.contact {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.contact i {
+  color: rgb(254, 42, 5);
+  padding-left: 5px;
+}
+.secondsection {
+  padding-left: 10px;
+  background-color: #f1f1f1;
+}
+
+.bottominput i {
+  color: rgb(254, 42, 5);
+  padding-left: 15px;
+}
+.buttoninputcontact h3{
+  padding-left: 10px;
+}
+.bottominput input{
+  display: block;
+  margin-left: 10px;
+  width: 95%;
+  padding: 15px;
+  gap: 8px;
+}
+
+.redbox {
+  background-color: rgb(254, 42, 5);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  color: white;
+}
+
+
+.contact2 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+}
+.thirdsection {
+  padding: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.thirdsection p{
+  
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.gallery {
+  display: flex;
+  position: relative;
+}
+.cinque {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+}
+.imggallery2 {
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 6px;
+}
+.imggallery2 img {
+  position: relative;
+}
+.imggalpic {
+  position: relative;
+}
+.imggalpic h4 {
+  position: absolute;
+  bottom: 5px;
+  left: 15px;
+  color: white;
+  z-index: 10;
+}
+
+.newsletters {
+  background-color: rgb(53, 52, 52);
+  color: white;
+  padding-left: 10px;
+
+  gap: 10px;
+  width: 100%;
+}
+.newsletters:hover {
+  background-color: black;
+}
+.newsletters input {
+  width: 98%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.buttonnewsletter {
+  background-color: orangered;
+  width: 15%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.buttonbottom {
+  background-color: black;
+  color: white;
+  width: 25%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-left: 10px;
+  white-space: nowrap;
+}
+.end {
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.end a:hover {
+  color: green;
+}
+ 
+@media (max-width:990px){
+  .forms{
+    width:60%;
+  }
+  
+  .about{
+    flex-direction: column;
+  }
+  .about .mapimg{
+    width:90%;
+  }
+  .Aboutpara {
+  width: 92%;
+}
+}
+@media screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+   
+  }
+  .header-nav {
+    flex-direction: column;
+  }
+  .row {
+  flex-direction: column;
+  padding: 10px;
+  gap:2px;
+  padding: 4px;
+}
+.cell input{
+ padding:2px;
+ 
+}
+.row {
+  display: flex;
+  
+  padding: 10px;
+}
+#intro{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left:0;
+}
+.bgimg img{
+  object-fit: cover;
+}
+.secondflex {
+  flex-direction: column;
+}
+.cart{
+  flex-direction: column;
+}
+.contact{
+  flex-direction: column;
+  text-align: center;
+}
+.gallery{
+  flex-direction: column;
+}
+.imggallery2{
+  grid-template-columns: 1fr;
+  }
+}
+@media (max-width:900px){
+  header img{
+    width:800px;
+  }
+}
+

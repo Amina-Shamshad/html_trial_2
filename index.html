@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="navbar">
+
+        <!--Navigation Bar-->
+        <div class="header-nav">
+            <div class="Block1">
+                <i class="fa-solid fa-bed"></i> Logo
+            </div>
+            <div class="Block2">Rooms </div>
+            <div class="Block3">About </div>
+            <div class="Block4">Contact </div>
+        </div>
+        <div class="Book-now">Book Now </div>
+    </nav>
+
+        <header class="bgimg" id="intro">
+        <img src="hotel-.jpg" alt="Image of a hotel">
+        <div class="forms">
+            <div class="formHead">
+                <h2 class="hotelname"><i class="fa-solid fa-bed"></i> &nbsp;Hotel Name</h2>
+            </div>
+
+            <div class="formbody" >
+                <div class="row">
+                    <div class="cell">
+                        <label for="checkin"><i class="fa-regular fa-calendar"></i>Check In</label>
+                        
+                        <input type="text"  class="CheckInDate" id="CheckInDate" name="checkin" placeholder="DD MM YYYY">
+                    </div>
+                    <div class="cell">
+                        <label for="checkout"><i class="fa-regular fa-calendar"></i>Check Out</label>
+                        <input type="text" class="CheckInDate" id="CheckOut" name="checkout" placeholder="DD MM YYYY">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="cell">
+                        <label for="Adults"><i class="fa-solid fa-person"></i>Adults</label>
+                        
+                        <input type="number" class="CheckInDate" id="adults" name="Adults">
+                    </div>
+                    <div class="cell">
+                        <label for="Kids"><i class="fa-solid fa-child-reaching"></i>Kids</label>
+                    
+                        <input type="number" class="CheckInDate" id="Kids" name="Kids">
+                    </div>
+                </div>
+                
+                <div class="search-availability">
+                    <i class="fa-solid fa-magnifying-glass"></i>Search availability
+                </div>
+                
+            </div>
+        </div>
+        </header>
+    
+    
+    <!--second page-->
+    <div class="secondsection">
+        <div class="page2">
+            <h2>Rooms</h2>
+
+            <p>Make yourself at home is our slogan. We offer the best beds in the industry. Sleep well and rest well.</p>
+
+
+
+            <div class="secondflex">
+                <div class="page2flex">
+                    <label for="checkin"><i class="fa-regular fa-calendar"></i>Check In</label>
+                    <br>
+                    <input type="text" class="input1" id="CheckInDate" name="checkin" placeholder="DD MM YYYY">
+                </div>
+                <div class="page2flex">
+                    <label for="checkout"><i class="fa-regular fa-calendar"></i>Check Out</label>
+                    <br>
+                    <input type="text" class="input1" id="CheckOut" name="checkout" placeholder="DD MM YYYY">
+                </div>
+                <div class="page2flex">
+                    <label for="Adults"><i class="fa-solid fa-person"></i>Adults</label>
+                    <br>
+                    <input type="number" class="input1" id="adults" name="Adults">
+                </div>
+                <div class="page2flex">
+                    <label for="kid"><i class="fa-solid fa-person"></i>Kids</label>
+                    <br>
+                    <input type="number" class="input1" id="kid" name="Kids">
+                </div>
+                <div class="page2flex">
+                    <label for="search"> <i class="fa-solid fa-magnifying-glass"></i> &nbsp; Search</label>
+                    <br>
+                    <input type="submit" class="searchnotbutton" id="kid" name="Kids" value="Search" >
+                </div>
+                
+                   
+            </div>
+            <br>
+            <br>
+        </div>
+            <div class="cart">
+                <div class="box">
+                    <img src="room_single (1).jpg" width="100%" alt="picture of a single room">
+                    <div class="boxcontent"><h3>Single Room</h3></div>
+                    <div class="boxcontent">From $99</div>   
+                    <div class="boxcontent">Single bed</div>
+                    <div class="boxcontent">15m</div>
+                    <div class="boxcontent"><i class="fa-solid fa-bath"></i> <i class="fa-solid fa-phone"></i> <i class="fa-solid fa-wifi"></i></div>
+                    <button class="button">Choose Roome</button>
+                </div>  
+                <div class="box">
+                    <img src="room_double.jpg" width="100%" alt="picture of a single room">
+                    <div class="boxcontent"><h3>Double Room</h3></div>
+                    <div class="boxcontent">From $149</div>   
+                    <div class="boxcontent">Queen-size bed</div>
+                    <div class="boxcontent">25m</div>
+                    <div class="boxcontent"><i class="fa-solid fa-bath"></i> <i class="fa-solid fa-phone"></i> <i class="fa-solid fa-wifi"></i> <i class="fa-solid fa-tv"></i></div>
+                    <button class="button">Choose Roome</button>
+                </div>  
+                <div class="box">
+                    <img src="room_deluxe.jpg" width="100%" alt="picture of a single room">
+                    <div class="boxcontent"><h3>Deluxe Room</h3></div>
+                    <div class="boxcontent">From $199</div>   
+                    <div class="boxcontent">King-bed</div>
+                    <div class="boxcontent">40m</div>
+                    <div class="boxcontent"><i class="fa-solid fa-bath"></i> <i class="fa-solid fa-phone"></i> <i class="fa-solid fa-wifi"></i> <i class="fa-solid fa-tv"></i> <i class="fa-solid fa-martini-glass"></i> <i class="fa-solid fa-utensils"></i></div>
+                    <button class="button">Choose Roome</button>           
+                </div>      
+                
+
+            </div>
+            <br>
+            <div class="about">
+                <div class="Aboutpara">
+                    <br>
+                    <h3>About</h3>
+                    <p>Our hotel is one of a kind. It is truely amazing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <p> We accept:<i class="fa-regular fa-credit-card"></i>
+                        <i class="fa-brands fa-cc-mastercard"></i> 
+                        <i class="fa-brands fa-cc-paypal"></i>
+                        <i class="fa-brands fa-cc-amex"></i></p>
+                </div>
+                <div class="mapimg">
+                    <br>
+                    <img src="map.jpg" width="100%" alt="picture of roadmap"></div>
+            </div>
+            
+            <div class="contact">
+                <div><i class="fa-solid fa-location-dot" class="icon"></i>423 Some adr, Chicago, US</div>
+                <div><i class="fa-solid fa-phone" class="icon"></i>Phone:+00 151515</div>
+                <div><i class="fa-solid fa-envelope" class="icon"> </i>Email:mail@mail.com</div>
+            </div>
+    </div>
+        
+        <div class="redbox">
+            <i class="fa-solid fa-info"></i> &nbsp; On demand, we can offer playstation, babycall, children care, dog equipment, etc.
+        </div>
+         
+        <div class="thirdsection" >
+            <br>
+            <h3>Our Hotels</h3>
+            <p>You can find our hotels anywhere in the world:</p>
+            <div class="gallery">
+                <div class="imggallery">
+                  <img src="cinqueterre.jpg" width="98%" alt="Cinque Terre">
+                  <div class="cinque"><h4>Cinque Terre<h4></h4></div>
+                </div>
+                <div class="imggallery2">
+                   <div class="imggalpic">
+                       <div><img src="newyork2.jpg" width="98%" alt="newyork"></div>
+                       <h4>New York</h4>
+                    </div>
+                   <div class="imggalpic"> 
+                       <div><img src="sanfran.jpg" width="98%" alt="sanfrancisco"></div>
+                       <h4>Francisco</h4>
+                    </div> 
+                   <div class="imggalpic">
+                       <div><img src="pisa.jpg" width="98%" alt="pisa" ></div>
+                       <h4>Pisa</h4>
+                    </div> 
+                   <div class="imggalpic">
+                       <div><img src="paris.jpg" width="98%" alt="paris"></div>
+                       <h4>paris</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="newsletters">
+            <h2>Get the best offers first!</h2>
+            <h4>Join our newsletter.</h4>
+            <label for="E-mail">E-mail</label>
+            <input type="E-mail" id="e-mail" name="E-mail" placeholder="Your Email address">
+            <br>
+            <button class="buttonnewsletter">Subscribe</button>
+        </div>
+        <div class="bottominput">
+           <div class="bottominputcontact">
+            <br>
+            <h3>Contact</h3>
+            <br>
+            <p>If you have any questions, do not hesitate to ask them.</p>
+            <div class="contact2"><i class="fa-solid fa-location-dot" ></i> &nbsp; Chicago, US</div>
+            <div class="contact2"><i class="fa-solid fa-phone" ></i>&nbsp; Phone: +00 151515</div>
+            <div class="contact2"><i class="fa-solid fa-envelope"> </i> &nbsp; Email:mail@mail.com</div>
+            <br>
+           </div> 
+            <input type="text" class="input2" id="Name" name="name" placeholder="Name">
+            <br>
+            <input type="text" class="input2" id="Email" name="email" placeholder="Email">
+            <br>
+            <input type="text" class="input2" id="Message" name="message" placeholder="Message">
+            <br>
+            <button class="buttonbottom">SEND MESSAGE</button>  
+        
+        </div>
+        <br>
+        <div class="end">
+         <h3>Find Us On</h3>
+         <br>
+         <i class="fa-brands fa-instagram"></i> <i class="fa-brands fa-square-facebook"></i> <i class="fa-brands fa-snapchat"></i> <i class="fa-brands fa-pinterest"></i> <i class="fa-brands fa-twitter"></i> <i class="fa-brands fa-linkedin-in"></i>
+         <br>
+        <h5>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></h5>
+        </div>
+</body>
+
+</html>
